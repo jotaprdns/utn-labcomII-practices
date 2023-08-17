@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<style>
+table,
+td,
+th {
+border: 1px solid black;
+border-collapse: collapse;
+padding: 5px;
+}
+table {
+width: 100%;
+}
+</style>
+<body> 
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+            <th>Ocupacion</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+                <td>Madrid</td>
+                <td>Ingeniera</td>
+              </tr>
+              <tr>
+                <td>Carlos</td>
+                <td>35</td>
+                <td>Barcelona</td>
+                <td>Médico</td>
+              </tr>
+              <tr>
+                <td>Sofia</td>
+                <td>22</td>
+                <td>Valencia</td>
+                <td>Estudiante</td>
+              </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Pais</th>
+                <th colspan="2">Color</th>
+                <th>Navegador</th>
+                <th>Uso</th>
+            </tr>
+            <tr>
+                <th>Color A</th>
+                <th>Color B</th>
+                <th>www</th>
+                <th>(personas)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">USA</td>
+                <td>Azul</td>
+                <td>Rojo</td>
+                <td><a href="https://www.google.com.ar/?hl=es">Google</a></td>
+                <td>100 Mill</td>
+            </tr>
+            <tr>
+                <td colspan="2">No aplica color</td>
+                <td><a href="https://www.bing.com/?setlang=es">Bing</a></td>
+                <td>50 Mill</td>
+            </tr>
+            <tr>
+                <td>Canada</td>
+                <td>Amarillo</td>
+                <td>Azul</td>
+                <td><a href="https://espanol.yahoo.com">Yahoo!</a></td>
+                <td>10 Mill</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>Verde</td>
+                <td>Rosa</td>
+                <td><a href="https://www.baidu.com">Baidu</a></td>
+                <td>15 Mill</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
