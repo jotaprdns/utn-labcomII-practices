@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {font-family: sans-serif;}
-
+        * {
+            font-family: sans-serif;
+        }
+    
         h1 {
             font-size: 24px;
             color: #242424;
@@ -23,7 +25,7 @@
             font-size: 14px;
             margin: 30px 0;
         }
-
+    
         ul {
             font-family: monospace;
             font-size: 18px;
@@ -40,11 +42,11 @@
             text-decoration: underline;
         }
     
-        ul li a:hover {
-            background-color: rgba(255, 165, 0, 0.1);
+        ul li:hover {
+            background-color: rgba(0, 0, 0, 0.1);
         }
     
-        ul li:nth-child(2), ul li:nth-child(6) {
+        ul li:nth-child(2) a, ul li:nth-child(6) a {
             color: green;
         }
     
@@ -55,6 +57,7 @@
         ul li {
             padding: 10px;
         }
+
     </style>
 </head>
 <body>
